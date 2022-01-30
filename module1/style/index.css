@@ -114,8 +114,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /*flex-wrap: wrap;*/
-  /*width: 640px;*/
   max-width: 640px;
   min-height: 460px;
 }
@@ -275,7 +273,7 @@ body {
   height: 16px;
   right: 65px;
   bottom: 2px;
-  background: url("/img/svg/feature-arrow.svg");
+  background: url("../img/svg/feature-arrow.svg");
 }
 
 .article {
@@ -291,21 +289,21 @@ body {
 }
 
 .article:nth-child(1) {
-  background: right/ contain no-repeat url("/img/svg/Search-Data.svg");
+  background: right/ contain no-repeat url("../img/svg/Search-Data.svg");
 }
 
 .article:nth-child(2) {
-  background: right/ contain no-repeat url("/img/svg/24 Hours Access.svg");
+  background: right/ contain no-repeat url("../img/svg/24 Hours Access.svg");
 
 }
 
 .article:nth-child(3) {
-  background: right/ contain no-repeat url("/img/svg/Print Out.svg");
+  background: right/ contain no-repeat url("../img/svg/Print Out.svg");
 
 }
 
 .article:nth-child(4) {
-  background: right/ contain no-repeat url("/img/svg/Security Code.svg");
+  background: right/ contain no-repeat url("../img/svg/Security Code.svg");
 
 }
 
@@ -332,7 +330,6 @@ body {
   position: relative;
   border: 1px solid var(--purple);
   display: flex;
-  /*width: 645px;*/
   flex-basis: 400px;
   min-height: 330px;
   background-color: white;
