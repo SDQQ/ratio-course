@@ -1,0 +1,131 @@
+.separator {
+  display: block;
+  width: 100vw;
+  height: 2px;
+  background-color: #EBE1F9;
+}
+
+.page__separator {
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+}
+
+.page__footer {
+  margin-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.info {
+  width: 285px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.info__logo {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.info__title {
+  margin-left: 20px;
+  color: var(--text-color-main);
+
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+.info__address {
+  color: var(--text-color-main);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.info__contacts {
+  color: var(--text-color-main);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.info__copyright {
+  color: var(--text-color-main);
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 180%;
+}
+
+.social {
+  margin-top: 25px;
+  color: var(--text-color-main);
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.social__icon-wrap {
+  margin-top: 30px;
+  display: flex;
+}
+
+.social__icon {
+  width: 55%;
+  height: 55%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social__link {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--text-color-main);
+  opacity: 0.1;
+  margin-right: 15px;
+}
+
+.social__link--hover:hover {
+  opacity: 1;
+}
+
+.social__link--click:active {
+  opacity: 0.5;
+}
+
+@media (max-width: 767.98px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social__text {
+    text-align: center;
+  }
+
+  .hr {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .info {
+    width: auto;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
