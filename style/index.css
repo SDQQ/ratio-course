@@ -1,5 +1,5 @@
-@import url('_normalize.css');
-@import url('_global.css');
+@import url('normalize.css');
+@import url('global.css');
 @import url('header.css');
 @import url('description.css');
 @import url('about.css');
