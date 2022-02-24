@@ -68,7 +68,7 @@ body::after {
   padding: 0 15px;
   margin: 0 auto;
 }
-
+/*TODO: избегайте использования дробных пикселей, пиксель - это как точка*/
 @media (max-width: 1199.98px) {
   .container {
     max-width: 900px;
